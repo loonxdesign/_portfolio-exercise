@@ -32,7 +32,8 @@ body {
 /* FONT STYLES */
 h1 {
   font-family: var(--headline-font-family);
-  font-variant: small-caps;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
   font-size: 56px;
   line-height: 1.5;
   text-align: center;
@@ -46,6 +47,12 @@ h2 {
   font-family: var(--headline-font-family);
   font-size: 32px;
   line-height: 1.5;
+}
+
+.p-bold {
+  font-family: inherit;
+  font-weight: 900;
+  letter-spacing: 0.1em;
 }
 
 /* LINKS */
@@ -67,6 +74,10 @@ a:active {
 button,
 .submit_button,
 .button {
+  font-family: inherit;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
   color: var(--primary-color);
   border: 2px solid var(--primary-color);
   background-color: transparent;

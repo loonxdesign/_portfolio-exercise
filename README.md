@@ -4,4 +4,4 @@ Familiarise yourself with HTML and CSS and use this knowledge to build a respons
 
 # Result
 
-https://loonxdesign.github.io/_portfolio-exercise.html
+https://loonxdesign.github.io/_portfolio-exercise/
